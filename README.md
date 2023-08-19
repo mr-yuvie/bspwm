@@ -188,6 +188,7 @@ To get a consistent look for visual studio code, you can install the <b>Tokyo Ni
 [Click Here to access the theme link](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
 </details>
+
 ## Tips:
 ### 1. Enable touchpad Tap-to-click:
 If you are a laptop user, you might want to enable tap to click so that it gets easier to navigate using a touchpad. It is pretty easy to do so!
