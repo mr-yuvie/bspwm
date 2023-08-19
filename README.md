@@ -21,7 +21,7 @@
 * **jgmenu** as the desktop root menu.
 * **Polybar** as the main bar.
 
-⚠️ **NOTE!!!!!** This configuration is not owned by me, The original creater is Syndrizzle. This is just my dotfiles after some tweaking for my personal usage. This was made for a **1920x1200** screen and on a **Laptop** with **96** dpi.
+⚠️ **NOTE!!!!!** This configuration is not owned by me, The original creater is [Syndrizzle](https://github.com/Syndrizzle). This is just my dotfiles after some tweaking for my personal usage. This was made for a **1920x1200** screen and on a **Laptop** with **96** dpi.
 
 ---
 ## Installation:
@@ -250,19 +250,9 @@ Since we are using xfce4-power-manager, we might want to make it toggle the lock
 ```bash
 xfconf-query -c xfce4-session -p /general/LockCommand -s "$HOME/.scripts/lock" --create -t string
 ```
-
-## Support:
-You can always show your support towards these rices by donating me, as this takes a lot of time and hardwork, thank you for everything!
-
-<b>Ko-Fi:</b> <br>
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A8DKCLY) <br>
-
-<b>Librepay:</b> <br>
-<a href="https://liberapay.com/syndrizzle/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-
 ## Credits:
 
-#### Than.ks to:
-*[.Syndrizzle](github.com/Syndrizzle)
+#### Thanks to:
+*[Syndrizzle](https://github.com/Syndrizzle)
 
 <p align="center"><b>That's it! Have a nice day!</b></p>
