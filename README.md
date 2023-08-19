@@ -18,7 +18,7 @@ Welcome to my GitHub repository of personal dotfiles! These are beautifully crea
 * **Picom (Fluffy Animations)** as the compositor.
 * **EWW** as the widgets [Dashboard, Player and System Menu]
 * **Rofi** as the application launcher.
-* **SLiM** as the Display Manager.
+* **Sddm** as the Display Manager.
 * **Dunst** as the notification daemon.
 * **Conky** as the desktop eyecandy.
 * **jgmenu** as the desktop root menu.
@@ -40,9 +40,9 @@ Since we will store temporary cloned files in this folder.
 
 For now the installation instructions are only provided for Arch Based distributions, I have not included the steps for others because I don't want to end up fighting with the compatibility issues on other distributions, I will add them after proper testing.<br>  
 
-A one time command to install most of these dependencies with **your favorite AUR Helper** is given below, however some of them might need to be installed manually. In this case we are using paru, you can any other, I don't mind 🙃
+A one time command to install most of these dependencies with **your favorite AUR Helper** is given below, however some of them might need to be installed manually. In this case we are using yay, you can any other, I don't mind 🙃
 ```bash
-paru -S kitty polybar rofi bspwm-rounded-corners-git xdg-user-dirs nautilus xorg pavucontrol blueberry xfce4-power-manager feh lxappearance papirus-icon-theme file-roller gtk-engines gtk-engine-murrine neofetch imagemagick parcellite xclip maim gpick curl jq tint2 zsh moreutils recode dunst plank python-xdg redshift mate-polkit xfce4-settings mpv yaru-sound-theme fish alsa-utils slim xorg-xinit brightnessctl acpi mugshot playerctl python-pytz glava wmctrl i3lock-color jgmenu inter-font networkmanager-dmenu-git conky-lua bsp-layout zscroll noise-suppression-for-voice starship system76-power lsof gamemode lib32-gamemode xdo bluez bluez-utils bluez-libs bluez-tools
+yay -S kitty polybar rofi bspwm-rounded-corners-git xdg-user-dirs thunar xorg pavucontrol blueberry xfce4-power-manager feh lxappearance file-roller gtk-engines gtk-engine-murrine neofetch imagemagick parcellite xclip maim gpick curl jq tint2 zsh moreutils recode dunst plank python-xdg redshift mate-polkit xfce4-settings mpv yaru-sound-theme fish alsa-utils sddm xorg-xinit brightnessctl acpi mugshot playerctl python-pytz glava wmctrl i3lock-color jgmenu inter-font networkmanager-dmenu-git conky-lua bsp-layout zscroll noise-suppression-for-voice starship lsof gamemode lib32-gamemode xdo bluez bluez-utils bluez-libs bluez-tools
 ```
 
 You also need `pylrc` which is a python module for handling the lyrics of song in the eww based player. You can skip this if you don't use spotify.
@@ -62,7 +62,7 @@ Now you gotta install some dependencies which cannot be installed via the AUR he
 Elkowar's wacky widgets are the main widgets that we are gonna use in our system. It is a very essential dependency that you need.
 First you need the nightly version of rust and also GTK3. A speedy way would be to directly install the binary package of rust nightly from the AUR using your favorite AUR helper:
 ```bash
-paru -S rust-nightly-bin gtk3
+yay -S rust-nightly-bin gtk3
 ```
 Then we just need to run a few commands assuming you have `git` installed:
 ```bash
@@ -112,11 +112,6 @@ Add your user to the ADM Group and start the following services:
 sudo usermod -aG adm $USER
 ```
 
-Start the system76-power service:
-```bash
-sudo systemctl enable --now com.system76.PowerDaemon
-```
-
 Bluetooth:
 ```bash
 sudo systemctl enable bluetooth
@@ -143,22 +138,22 @@ The step we all have been waiting for.
 Clone them and install:
 ```bash
 cd ~/Downloads
-git clone https://github.com/syndrizzle/hotfiles.git -b bspwm
-cd hotfiles
+git clone https://github.com/mr-yuvie/bspwm -b bspwm
+cd bspwm
 cp -r .config .scripts .local .cache .wallpapers ~/
 cp .xinitrc .gtkrc-2.0 ~/
 ```
 Install Fonts:
-Assuming you are already in the `hotfiles` folder
+Assuming you are already in the `bspwm` folder
 ```bash
 cd .fonts
 mv * /usr/share/fonts
 ```
-Move `slim.conf` and `environment` to it's location:
-Again assuming you are in the `hotfiles` folder
+Move `sddm.conf` and `environment` to it's location:
+Again assuming you are in the `bspwm` folder
 ```bash
 cd etc/
-mv slim.conf environment /etc/
+mv sddm.conf environment /etc/
 ```
 Copy items in `usr` folder to their respective places:
 ```bash
@@ -176,7 +171,7 @@ The usr folder contains the cursor theme and some executable scripts.
 Since we copied the dotfiles, we can apply the spicetify theme now.
 First, install spicetify using:
 ```bash
-paru -S spicetify-cli-git
+yay -S spicetify-cli-git
 ```
 
 Then, we need to give read and write access to our spotify folder for modifications:
@@ -216,8 +211,6 @@ To get a consistent look for visual studio code, you can install the <b>Tokyo Ni
 <h3 align="center">A much better look at the desktop :)</h3>
 <p align="center"><img src="https://i.imgur.com/arsPP2Q.png" width="1200"/></p>
 <h3 align="center">Lock Screen using i3lock</h3>
-<p align="center"><img src="https://i.imgur.com/avM80Pj.png" width="1200"/></p>
-<h3 align="center">Login Screen using SLiM</h3>
 
 ### More Fluff!
 <p align="center"><img src="https://i.imgur.com/s6mMGNJ.gif" width="1000"/></p>
@@ -268,7 +261,7 @@ xdg-user-dirs-update
 ### 4. Turn on lock screen when you need it.
 Since we are using xfce4-power-manager, we might want to make it toggle the lock screen when the laptop lid is closed, or if the laptop is just idle. To do this we can use `xfconf-query` to set the command that needs to manually toggle our lockscreen,
 ```bash
-xfconf-query -c xfce4-session -p /general/LockCommand -s "$HOME/.scripts/lock-run" --create -t string
+xfconf-query -c xfce4-session -p /general/LockCommand -s "$HOME/.scripts/lock" --create -t string
 ```
 
 ## Support:
