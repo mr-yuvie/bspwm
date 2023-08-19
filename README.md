@@ -6,10 +6,7 @@
 
 <p align="center"><img src="https://img.shields.io/github/stars/syndrizzle/hotfiles?color=%231a1b26&label=STARGAZERS&labelColor=%231a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/forks/syndrizzle/hotfiles?color=%231a1b26&label=FORKS&labelColor=%231a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/issues/syndrizzle/hotfiles?color=1a1b26&labelColor=1a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/license/syndrizzle/hotfiles?color=1a1b26&labelColor=1a1b26&style=for-the-badge"/></p>
 
-### Thanks for Visiting! 
-Welcome to my GitHub repository of personal dotfiles! These are beautifully created with usability and aestheticism kept in mind. Feel free to explore it, use it or ~~steal~~ copy it, but please give me the credits 😃. If you need any help, you can open an issue on GitHub or you can contact me on Discord: `Syndrizzle#3826`, I will be happy to help!
-
-#### 2. ✨ The Bedazzle BSPWM ✨
+#### 1. ✨ The Bedazzle BSPWM ✨
 
 ### About:
 * **Kitty** as the terminal.
@@ -24,7 +21,7 @@ Welcome to my GitHub repository of personal dotfiles! These are beautifully crea
 * **jgmenu** as the desktop root menu.
 * **Polybar** as the main bar.
 
-⚠️ **NOTE!!!!!** This configuration was made for my PC, so some things might not work on your PC as this was never intended to be a usable full fledged system, in that case, please try if you can fix that up as much as possible, or you can open an issue for help :) This was made for a **1920x1080** screen and on a **Laptop** with **96** dpi.
+⚠️ **NOTE!!!!!** This configuration is not owned by me, The original creater is Syndrizzle. This is just my dotfiles after some tweaking for my personal usage. This was made for a **1920x1200** screen and on a **Laptop** with **96** dpi.
 
 ---
 ## Installation:
@@ -138,7 +135,7 @@ The step we all have been waiting for.
 Clone them and install:
 ```bash
 cd ~/Downloads
-git clone https://github.com/mr-yuvie/bspwm -b bspwm
+git clone https://github.com/mr-yuvie/bspwm
 cd bspwm
 cp -r .config .scripts .local .cache .wallpapers ~/
 cp .xinitrc .gtkrc-2.0 ~/
@@ -212,16 +209,6 @@ To get a consistent look for visual studio code, you can install the <b>Tokyo Ni
 <p align="center"><img src="https://i.imgur.com/arsPP2Q.png" width="1200"/></p>
 <h3 align="center">Lock Screen using i3lock</h3>
 
-### More Fluff!
-<p align="center"><img src="https://i.imgur.com/s6mMGNJ.gif" width="1000"/></p>
-<h3 align="center">Polybar with all the important information, visible to you when you need it!</h3>
-<p align="center"><img src="https://i.imgur.com/Ks0Us60.gif"/></p>
-<h3 align="center">A beautiful notification center created with aesthetics and usability in mind.</h3>
-<p align="center"><img src="https://i.imgur.com/jC4JMF4.gif"/></p>
-<h3 align="center">A system menu with a lot of configuration available at your fingertips!</h3>
-<p align="center"><img src="https://i.imgur.com/zx9Ch7p.gif"/></p>
-<h3 align="center">An eww based music player popup to control your music, get synced lyrics, and even a visualizer!</h3><br>
-
 ## Tips:
 ### 1. Enable touchpad Tap-to-click:
 If you are a laptop user, you might want to enable tap to click so that it gets easier to navigate using a touchpad. It is pretty easy to do so!
@@ -275,17 +262,7 @@ You can always show your support towards these rices by donating me, as this tak
 
 ## Credits:
 
-#### Thanks to:
-* [rxyhn](https://github.com/rxyhn)
-* [pagankeymaster](https://github.com/pagankeymaster)
-* [beyond9thousand](https://github.com/beyond9thousand)
-* [siduck](https://github.com/siduck)
-* [kizu](https://github.com/janleigh)
-* All the members of r/unixporn community and the discord server!
----
-* **The wallpapers have been taken from [Wallhaven](https://wallhaven.cc), [pexels](https://pexels.com) and the [tokyo night gtk theme  repository](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme/tree/master/wallpapers)**<br>
-* **The icons are from [icons8](https://icons8.com), [flaticon](https://flaticon.com), [materialdesignicons](https://materialdesignicons.com), [IcoMoon](https://icomoon.io), [feather-icons](https://feathericons.com/) and [Nerd Fonts](https://www.nerdfonts.com)**<br>
-* The Conky theme was taken from [closebox73's Scorpio](https://github.com/closebox73/Scorpio) conky themes pack, named "Auva". It was modified to match the color scheme.
-
+#### Than.ks to:
+*[.Syndrizzle](github.com/Syndrizzle)
 
 <p align="center"><b>That's it! Have a nice day!</b></p>
