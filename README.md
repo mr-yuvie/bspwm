@@ -1,11 +1,3 @@
-<p align="center"><b>IMPORTANT:</b> Those who are looking for the old rice, it is on the worm branch, <a href="https://github.com/syndrizzle/hotfiles/tree/worm">click here</a> to check it out. </p>
-
-<img alt="picture 2" src="https://i.imgur.com/hrNbdfD.gif" />  
-<p align="center"><a href="#installation"><img alt="picture 2" src="https://i.imgur.com/Y7PKn7x.png" width="220"/></a><a href="#gallery"><img alt="picture 3" src="https://i.imgur.com/i9rmhBC.png" width="220"/></a><a href ="#support"><img alt="picture 1" src="https://i.imgur.com/LLIkH4D.png" width="220"/></a><a href="#credits"><img alt="picture 5" src="https://i.imgur.com/QA23l5X.png" width="220"/></a><a href="#tips"><img alt="picture 4" src="https://i.imgur.com/cg3KPZc.png" width="220"/></a></p>
-
-
-<p align="center"><img src="https://img.shields.io/github/stars/syndrizzle/hotfiles?color=%231a1b26&label=STARGAZERS&labelColor=%231a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/forks/syndrizzle/hotfiles?color=%231a1b26&label=FORKS&labelColor=%231a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/issues/syndrizzle/hotfiles?color=1a1b26&labelColor=1a1b26&style=for-the-badge"/>&nbsp;&nbsp;<img src="https://img.shields.io/github/license/syndrizzle/hotfiles?color=1a1b26&labelColor=1a1b26&style=for-the-badge"/></p>
-
 #### 1. ✨ The Bedazzle BSPWM ✨
 
 ### About:
@@ -196,19 +188,6 @@ To get a consistent look for visual studio code, you can install the <b>Tokyo Ni
 [Click Here to access the theme link](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 
 </details>
-
-## Gallery:
-<p align="center"><img src="https://i.imgur.com/EMuaeIv.png" width="1200"/></p>
-<h3 align="center">The Desktop</h3>
-<p align="center"><img src="https://i.imgur.com/9bwXOCm.png" width="1200"/></p>
-<h3 align="center">The Main Dashboard</h3>
-<p align="center"><img src="https://i.imgur.com/Zge2jbI.png" width="1200"/></p>
-<h3 align="center">Spotify</h3>
-<p align="center"><img src="https://i.imgur.com/n0oeBYP.png" width="1200"/></p>
-<h3 align="center">A much better look at the desktop :)</h3>
-<p align="center"><img src="https://i.imgur.com/arsPP2Q.png" width="1200"/></p>
-<h3 align="center">Lock Screen using i3lock</h3>
-
 ## Tips:
 ### 1. Enable touchpad Tap-to-click:
 If you are a laptop user, you might want to enable tap to click so that it gets easier to navigate using a touchpad. It is pretty easy to do so!
