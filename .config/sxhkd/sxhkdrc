@@ -195,3 +195,6 @@ super + q
 #Lock
 ctrl + l
 	$HOME/.scripts/lock
+#Emoji
+super + .
+	ibus emoji
