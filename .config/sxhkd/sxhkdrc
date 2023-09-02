@@ -184,17 +184,22 @@ F4
 super + d
 	killall dunst; notify-send HELLO!
 
-#backlight inc
+# Backlight inc
 F7
 	/usr/local/bin/kb-light.py + 1
 
-#backlight dec
+# Backlight dec
 super + q 
 	/usr/local/bin/kb-light.py - 1
 
-#Lock
+# Lock
 ctrl + l
 	$HOME/.scripts/lock
-#Emoji
+
+# Emoji
 super + e
 	ibus emoji
+
+# Launch Brave
+super + shift + b
+	brave
