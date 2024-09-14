@@ -226,7 +226,7 @@ xdg-user-dirs-update
 ```
 
 ### 4. Turn on lock screen when you need it.
-Since we are using xfce4-power-manager, we might want to make it toggle the lock screen when the laptop lid is closed, or if the laptop is just idle. To do this we can use `xfconf-query` to set the command that needs to manually toggle our lockscreen. There is two lock screen scripts available, <lock> and <lock_new>.
+Since we are using xfce4-power-manager, we might want to make it toggle the lock screen when the laptop lid is closed, or if the laptop is just idle. To do this we can use `xfconf-query` to set the command that needs to manually toggle our lockscreen. There is two lock screen scripts available, lock and lock_new, we can change the command below to suit our needs.
 ```bash
 xfconf-query -c xfce4-session -p /general/LockCommand -s "$HOME/.scripts/lock" --create -t string
 ```
