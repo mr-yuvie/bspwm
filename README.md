@@ -13,8 +13,6 @@
 * **jgmenu** as the desktop root menu.
 * **Polybar** as the main bar.
 
-⚠️ **NOTE!!!!!** This configuration is not owned by me, The original creater is [Syndrizzle](https://github.com/Syndrizzle). This is just my dotfiles after some tweaking for my personal usage. This was made for a **1920x1200** screen and on a **Laptop** with **96** dpi.
-
 ---
 ## Installation:
 Below are the installation steps to install the dotfiles of my setup. Click on a step to Expand it.
@@ -234,5 +232,6 @@ xfconf-query -c xfce4-session -p /general/LockCommand -s "$HOME/.scripts/lock" -
 
 #### Thanks to:
 *[Syndrizzle](https://github.com/Syndrizzle)
+⚠️ **NOTE!!!!!** This configuration is not owned by me, The original creater is [Syndrizzle](https://github.com/Syndrizzle). This is just my dotfiles after some tweaking and additions for my personal usage. This was made for a **1920x1200** screen and on a **Laptop** with **96** dpi.
 
 <p align="center"><b>That's it! Have a nice day!</b></p>
