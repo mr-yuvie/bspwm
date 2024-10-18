@@ -188,12 +188,8 @@ super + d
 F7
 	/usr/local/bin/kb-light.py + 1
 
-# Backlight dec
-super + q 
-	/usr/local/bin/kb-light.py - 1
-
 # Lock
-ctrl + l
+ctrl + shift + l
 	$HOME/.scripts/lock
 
 # Emoji
