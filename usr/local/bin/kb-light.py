@@ -18,21 +18,17 @@ def kb_light_set(delta):
 
     # Return current backlight level percentage
     return 100 * current / maximum
-
+    
 if __name__ ==  '__main__':
     if len(sys.argv) == 2 or len(sys.argv) == 3:
         if sys.argv[1] == "--up" or sys.argv[1] == "+":
-            if len(sys.argv) == 3:
+            if (kb_light_set(0)) == 100:
+                print(kb_light_set(-3))
+            elif len(sys.argv) == 3:
                 print(kb_light_set(int(sys.argv[2])))
             else:
-                print(kb_light_set(17))
-        elif sys.argv[1] == "--down" or sys.argv[1] == "-":
-            if len(sys.argv) == 3:
-                print(kb_light_set(-int(sys.argv[2])))
-            else:
-                print(kb_light_set(-17))
+                print(kb_light_set(3))
         else:
             print("Unknown argument:", sys.argv[1])
     else:
         print("Script takes one or two argument.", len(sys.argv) - 1, "arguments provided.")
-
