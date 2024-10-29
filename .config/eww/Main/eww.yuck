@@ -1,6 +1,6 @@
 ;; variables
 (defvar window false)
-(defpoll time :interval "1s" "date '+%I %M'")
+(defpoll time :interval "1s" "date '+%I:%M'")
 (defpoll date :interval "1s" "date '+%A, %B %d'")
 (deflisten notifications-cards "Main/scripts/logger.zsh subscribe")
 (defpoll notifications-crits :interval "1s" "Main/scripts/logger.zsh crits")
